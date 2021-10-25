@@ -212,8 +212,10 @@ function zadan2_4(){
 
 function zadan3_1(){
 	document.location.href = '../log/log.html'
+	document.location.href = 'WebSite/log/log.html'
 }
 
 function zadan4_1(){
 	document.location.href = '../calculator/index.html'
+	document.location.href = 'WebSite/calculator/index.html'
 }
