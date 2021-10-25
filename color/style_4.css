@@ -1,0 +1,38 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+.box{
+    width: 600px;
+    height: 600px;
+    border: 2px solid red;
+}
+.color_1, .color_2, .color_3, .color_4 {
+    height: 300px;
+    width: 200px;
+    background-color: aquamarine;
+    font-size: 20px;
+    line-height: 300px;
+    text-align: center;
+    border: 1px solid white;
+    box-sizing: border-box;
+    user-select: none;
+ 
+}
+.color_group_1{
+    float: left;
+}
+
+#Color{
+   float: left;
+    height: 600px;
+    width: 200px;
+}
+
+#Input{
+ position:absolute;
+ left: 50%;
+ top: 50%;
+ transform: translate(-50%, -50%);
+ z-index: -1;
+}

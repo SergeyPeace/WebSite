@@ -1,0 +1,115 @@
+﻿*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    margin: 0;
+    padding: 0;
+
+}
+#div_fon_A4{
+    margin: 0;
+    padding: 0;
+    background-image: url(images/fon_A4.jpg);
+    background-color: #fff;
+    width: 100vw;
+    height: 100vh;
+}
+#registr{
+    margin: 300px 0px 0px 400px;
+    background-image: url(images/entrance.png);
+    width: 1113px;
+    height: 374px;
+    box-shadow: -10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+#test_login{
+    position: absolute;
+    z-index:  10;
+    margin: 186px 0 0 320px;
+    color: red;
+    font-size: 17pt;
+}
+
+#test_password{
+    position: absolute;
+    z-index:  10;
+    margin: 255px 0 0 320px;
+    color: red;
+    font-size: 17pt;
+}
+
+
+#answer{
+    width: 520px;
+    position: absolute;
+    z-index:  10;
+    margin: 186px 0 0 320px;
+    color: red;
+    font-size: 17pt;
+    text-align: center;
+}
+
+#login_in{
+    height: 25px;
+    width: 200px;
+    margin: 185px 0 0 88px;
+    text-align: center;
+
+}
+#password_in{
+    height: 25px;
+    width: 200px;
+    margin: 40px 0 0 88px;
+    text-align: center;
+}
+
+#entrance_in{
+    height: 50px;
+    width: 125px;
+    margin: 20px 0px 0px 500px;
+}
+
+#registr_in{
+    height: 50px;
+    width: 125px;
+    margin: -50px 0px 0px 950px;
+}
+
+#save{
+    height: 50px;
+    width: 125px;
+    margin: -50px 0px 0px 950px;
+    z-index: -1;
+}
+
+#exit{
+    height: 50px;
+    width: 125px;
+    margin: -50px 0px 0px 800px;
+    z-index: -10;
+}
+
+#checkbox{
+    position: absolute;
+    margin: 330px 0 0 88px;
+}
+
+.warning{
+    position: absolute;
+    margin: 330px 0 0 105px;
+    color: #747474;
+    font-size: 8.5pt;
+    letter-spacing: 0.5pt;
+}
+
+#headerRegEntr{
+    position: absolute;
+    margin: 45px 0 0 130px;
+    color: #4e4e4e;
+    font-size: 48px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}

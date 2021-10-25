@@ -1,0 +1,60 @@
+*{margin: 0px; padding: 0px;}
+
+.cont{
+   
+    position: absolute;
+    height: 625px;
+    width: 625px;
+    top:50%;
+    left:50%;   
+    transform: translate(-50%, -50%);
+}
+
+.div_1{
+    height: 300px;
+}
+
+.div_2{
+    height: 300px;
+    margin-top:25px;
+}
+
+
+.cont ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.cell{
+    background-color: cyan;
+    height: 300px;
+    width: 300px;
+    list-style-type: none;
+
+}
+
+.cell::before{
+    content: '';
+    position: absolute;
+    height: 300px;
+    width: 300px;
+    box-shadow: inset 0 0 25px black;
+    pointer-events: none;
+}
+
+.item{
+    height: 100%;
+    width: 100%;
+    cursor: move;
+    background-image: url(image/сat.jpg);
+    background-size: 100%;
+}
+
+.hide{
+    display: none;
+}
+
+.cell_style{
+    background-color: greenyellow;
+}

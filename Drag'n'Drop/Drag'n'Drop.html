@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="Style_8.css">
+    <title>Drag'n'Drop</title>
+</head>
+<body>
+    <select name="Vibor" id="numberVibor">
+        <optgroup label="Выбор картинки">
+            <option value="img_1">Кот</option>
+            <option value="img_2">Лягушка</option>
+            <option value="img_3">Бабочка</option>
+            <option value="img_4">Утка</option>
+        </optgroup>
+    </select>
+    <input type="button" value="Жми" onclick="UpData()">
+    <div class="cont">
+    <div class='div_1'>
+        <ul>
+            <li class="cell">
+               <div class="item" draggable="true">
+            </div>
+            </li>
+            <li class="cell"></li>
+            
+        </ul> 
+    </div>
+    <div class='div_2'>
+        <ul>
+            <li class="cell"></li>
+            <li class="cell"></li>
+        </ul> 
+    </div>
+</div>
+    <script src="Script_8.js"></script>
+</body>
+</html>

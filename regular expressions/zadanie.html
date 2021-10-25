@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <title>Задание 7</title>
+    <link rel="stylesheet" href="style_7.css">
+</head>
+<body>
+    <div id="div_1">
+
+    <input type="text" placeholder="e-mail">
+    <input type="text" placeholder="Пароль">
+    <input type="text" placeholder="Имя Кота" onkeyup="this.value = this.value.replace(/[a-zA-Z]/g,'');">
+    <input type="text" placeholder="Номер телефона">
+    </div>
+    <input type="number" list="input-list">
+ 
+<datalist id="input-list">
+	<option value="111">
+	<option value="222">
+	<option value="333">
+	<option value="444">
+	<option value="555">
+</datalist>
+<script src="script_7.js"></script>
+    
+</body>
+</html>

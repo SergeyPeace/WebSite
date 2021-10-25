@@ -1,0 +1,40 @@
+<!DOCKTYPE:html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Калькулятор</title>
+<link rel="stylesheet" type="text/css" href="style.css"> 
+</head>
+
+<body>
+<div class="header">Ненашев Сергей группа 3-ТИД-3</div>
+
+<div class="operator">
+	<div class="div1" id="div1">
+		<input type="text" id="numberOne" onkeyup="this.value = this.value.replace(/[^\d]/g,'');"  placeholder="Первое число">
+	</div>
+	<div class="div2">
+		<div class="button1 view" onclick="summ()">
+			<img src="img/1.png" alt="button1">
+		</div>
+		<div class="button2 view" onclick="subtraction()">
+			<img src="img/2.png" alt="button2">
+		</div>
+		<div class="button3 view" onclick="multiplication()">
+			<img src="img/3.png" alt="button3">
+		</div>
+		<div class="button4 view" onclick="division()">
+			<img src="img/4.png" alt="button4">
+		</div>
+	</div>
+	<div class="div3">
+		<input type="text" id="numberTwo" onkeyup="this.value = this.value.replace(/[^\d]/g,'');" placeholder="Второе число">
+	</div>
+</div>
+<div class="answer" id="answer">Ответ</div>
+<input id='button5' type='button' value="Вернуться в меню" onclick="location.href='../index/index.html'" >
+
+<script src="script.js"></script>
+</body>
+
+</html>
