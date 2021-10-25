@@ -47,6 +47,12 @@ function UpData(){
 	else if (numberZadan.value == 'z5_1'){
 		zadan5_1()
 	}
+	else if (numberZadan.value == 'z6_1'){
+		zadan6_1()
+	}
+	else if (numberZadan.value == 'z7_1'){
+		zadan7_1()
+	}
 }
 function zadan1_1(){
 	const number = 1938
@@ -223,4 +229,12 @@ function zadan4_1(){
 
 function zadan5_1(){
 	document.location.href = 'slider/slider.html'
+}
+
+function zadan6_1(){
+	document.location.href = 'color/color.html'
+}
+
+function zadan7_1(){
+	document.location.href = "Drag'n'Drop/Drag'n'Drop.html"
 }
