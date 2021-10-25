@@ -37,13 +37,13 @@
  z-index: -1;
 }
 
-.cliked{
-    height: 200px;
-    width: 200px;
-    background-color: pink;
+.clicked{
     position:absolute;
+    text-align: center;
+    font-size: 24pt;
     left: 50%;
-    top: 50%;
+    top: 34%;
     transform: translate(-50%, -50%);
     z-index: 1;
+    user-select: none;
    }
