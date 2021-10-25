@@ -44,6 +44,9 @@ function UpData(){
 	else if (numberZadan.value == 'z4_1'){
 		zadan4_1()
 	}
+	else if (numberZadan.value == 'z5_1'){
+		zadan5_1()
+	}
 }
 function zadan1_1(){
 	const number = 1938
@@ -216,4 +219,8 @@ function zadan3_1(){
 
 function zadan4_1(){
 	document.location.href = 'calculator/index.html'
+}
+
+function zadan5_1(){
+	document.location.href = 'slider/slider.html'
 }
