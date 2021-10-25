@@ -38,6 +38,9 @@
 }
 
 .cliked{
+    height: 200px;
+    width: 200px;
+    background-color: pink;
     position:absolute;
     left: 50%;
     top: 50%;
