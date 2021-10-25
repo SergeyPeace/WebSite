@@ -11,7 +11,7 @@ let NewPassword
 
 function Entrance(){
     if(LoginIn.value == Login && PasswordIn.value == Password && document.getElementById('checkbox').checked) {
-        document.location.href='../index.html'
+        document.location.href='../../index.html'
 
     }
     else if (LoginIn.value == Login && PasswordIn.value == Password){
